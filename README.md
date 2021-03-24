@@ -1,1 +1,1 @@
-# movies-search-engine
+# Movies Search Engine App - React
