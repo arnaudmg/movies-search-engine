@@ -1,6 +1,6 @@
 import './App.css';
 import React, { Component } from 'react';
-import MovieRow from './movieRow.js'
+import MovieRow from './components/MovieRow.js'
 import $ from 'jquery'
 
 
@@ -62,6 +62,7 @@ class App extends Component {
     })
   }
 
+  
   searchChangeHandler(event) {
     console.log(event.target.value)
     const boundObject = this
